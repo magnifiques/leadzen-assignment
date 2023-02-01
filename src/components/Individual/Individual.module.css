@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+
+  margin: 1rem 0;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 6rem;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.button {
+  background-color: rgba(235, 8, 8, 0.819);
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(235, 8, 8, 0.951);
+}
+
+.details {
+  margin: 3rem;
+  border: 1px solid rgba(180, 176, 176, 0.493);
+  box-shadow: 1px 1px 10px 1px rgb(152, 153, 152);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.additional {
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-column-gap: 10rem;
+}
